@@ -1,0 +1,32 @@
+# Maven specific
+target/
+*/target/
+*.iml
+.idea/
+
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# Maven Wrapper
+.mvn/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# IntelliJ project files
+*.iws
+*.ipr
+*.iws
+*.iml
+.idea/
+*.classpath
+*.project
+.idea_modules/
+
+# NetBeans project files
+nb-configuration.xml
