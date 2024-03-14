@@ -20,11 +20,11 @@ public class UserDaoImpl implements UserDao {
 
 	static final String SELECT_QUERY = "SELECT * FROM `user` WHERE `userId` = ?";
 
-	static final String UPDATE_QUERY = "UPDATE `user` SET `name` = ?,`email` = ?,`phoneNo` = ?, `address` = ?,  `userName` = ?, `password` = ?, WHERE `userId` = ?";
+	static final String UPDATE_QUERY = "UPDATE `user` SET `name` = ?,`email` = ?,`phoneNo` = ?, `address` = ?,  `userName` = ?, `password` = ? WHERE `userId` = ?";
 
 	static final String DELETE_QUERY = "DELETE FROM `user` WHERE `userId` = ?";
 
-	static final String INSERT_QUERY = "INSERT INTO `user` (`userId`,`name`,`email`,`phoneNo`,`address`,`userName`,`password`,) VALUES(?,?,?,?,?,?,?)";
+	static final String INSERT_QUERY = "INSERT INTO `user` (`userId`,`name`,`email`,`phoneNo`,`address`,`userName`,`password`) VALUES(?,?,?,?,?,?,?)";
 
 	
 	public UserDaoImpl() {
